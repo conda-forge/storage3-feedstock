@@ -1,5 +1,5 @@
 {% set name = "storage3" %}
-{% set version = "0.7.7" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9fba680cf761d139ad764f43f0e91c245d1ce1af2cc3afe716652f835f48f83e
+  sha256: cdb5af60ff240a8c2ef83cecdb5816042ce4a9162803456bcd1bca075b4c82df
 
 build:
   number: 0
