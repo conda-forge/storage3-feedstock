@@ -21,10 +21,10 @@ requirements:
     - poetry
   run:
     - python >={{ python_min }}
-    - httpx >=0.26.0,<0.28
+    - httpx >=0.26.0,<0.29
     - typing-extensions >=4.2.0
-    - python-dateutil >=2.8.2
     - deprecation >=2.1.0
+    - pydantic >=2.11.7,<3
 
 test:
   requires:
