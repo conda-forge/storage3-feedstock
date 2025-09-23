@@ -3,14 +3,13 @@ About storage3-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/storage3-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/supabase-community/storage-py
+Home: https://github.com/supabase/supabase-py/tree/main/src/storage
 
 Package license: MIT
 
 Summary: Python Client library to interact with Supabase Storage
 
 Python Client library to interact with Supabase Storage
-
 
 Current build status
 ====================
