@@ -1,5 +1,5 @@
 {% set name = "storage3" %}
-{% set version = "2.21.1" %}
+{% set version = "2.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 58ee49b5c51fcf0e43edf3f39463f14051e36d6d5aeff1516e9171f2dc48f987
+  sha256: 199a67c2b1ac595191617ff2d7bcd0ef6440126e4335a6aaaf9df7881ccd3842
 
 build:
   number: 0
@@ -21,10 +21,10 @@ requirements:
     - uv-build >=0.8.3,<0.9.0
   run:
     - python >={{ python_min }}
-    - httpx >=0.26.0,<0.29
-    - typing-extensions >=4.2.0
+    - httpx >=0.26,<0.29
     - deprecation >=2.1.0
     - pydantic >=2.11.7,<3
+    - yarl >=1.20.1
 
 test:
   requires:
