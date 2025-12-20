@@ -1,5 +1,5 @@
 {% set name = "storage3" %}
-{% set version = "2.25.1" %}
+{% set version = "2.27.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb445dcaa3a6ead1c0b27d7d06bf9074592a1fdc07e57c648a69a9bf5057d7a0
+  sha256: 3d07e7cba570edb94055da90857e8a17920def4fea06dcdc5d89ee090bdc7bf5
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
     - deprecation >=2.1.0
     - pydantic >=2.11.7,<3
     - yarl >=1.20.1
+    - pyiceberg >=0.10.0
 
 test:
   requires:
