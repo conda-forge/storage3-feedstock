@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: storage3
-  version: "2.32.0"
+  version: "2.33.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 9188dfe6931f3366fd9740d21f737bf969dbbd69f9ecb97746dbb7eeb5f01731
+  sha256: 7b5a27ca1e64e324420ca9514c38317f243a0ae7a56aeef336976034c1c565d4
 
 build:
   number: 0
